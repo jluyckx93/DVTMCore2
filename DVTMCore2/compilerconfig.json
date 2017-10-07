@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "wwwroot/lib/bootstrap/less/variables.css",
+    "inputFile": "wwwroot/lib/bootstrap/less/variables.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/bootstrap/less/bootstrap.css",
+    "inputFile": "wwwroot/lib/bootstrap/less/bootstrap.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/bootstrap/less/mixins.css",
+    "inputFile": "wwwroot/lib/bootstrap/less/mixins.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/bootstrap/less/theme.css",
+    "inputFile": "wwwroot/lib/bootstrap/less/theme.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/bootstrap/less/normalize.css",
+    "inputFile": "wwwroot/lib/bootstrap/less/normalize.less"
+  }
+]

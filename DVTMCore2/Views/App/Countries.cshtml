@@ -1,0 +1,18 @@
+﻿@{ 
+    ViewBag.Title = "Countries";
+}
+
+@section scripts{ 
+    <script src="~/lib/angular/angular.min.js"></script>
+    <script src="~/lib/angular-route/angular-route.min.js"></script>
+    <script src="~/js/countries.js"></script>
+    <script src="~/js/simpleControls.js"></script>
+    <script src="~/js/app-countries.js"></script>
+    <script src="~/js/countriesController.js"></script>    
+    <script src="~/js/countryEditorController.js"></script>
+}
+    <div class="row" ng-app="app-countries">
+
+        <div ng-view></div>
+
+    </div>

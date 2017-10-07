@@ -1,0 +1,14 @@
+{
+  "MailSettings": {
+    "ToAdress": "nicolas.valsamis@devoteam.com"
+  },
+
+  "Data": {
+    "ConnectionString": "Server=(localdb)\\MSSQLLocalDB; Database=DVTMCore2DB;Trusted_Connection=true;MultipleActiveResultSets=true;"
+  },
+
+  "Keys": {
+    "BingMaps": "AugHItlglrroLUWx3uLnpwBqLEunamFXaWkReQt9koSLiug36X2a9zRilAF6mczI"
+  }
+
+}

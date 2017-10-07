@@ -1,0 +1,22 @@
+﻿<div class="col-md-6 col-md-offset-3">
+    <wait-cursor display-when="vm.isBusy"></wait-cursor>
+
+    <div class="alert alert-danger" ng-show="vm.errorMessage">{{vm.errorMessage}}</div>
+    <table class="table-responsive table-striped">
+        <tr ng-repeat="country in vm.countries">
+            <td>{{country.nameCountry}}</td>
+            <td><a ng-href="#/editor/{{country.nameCountry}}" class="btn btn-sm btn-danger">Manage</a></td>
+        </tr>
+    </table>
+
+    <form novalidate name="newCountryForm" ng-submit="vm.addCountry()">
+        <div class="form-group">
+            <label for="nameCountry">Country name</label>
+            <input class="form-control" type="text" id="nameCountry" name="nameCountry" ng-model="vm.newCountry.nameCountry" required ng-minlength="3" />
+            <span ng-show="newCountryForm.nameCountry.$error.required" class="text-warning">Name is required.</span>
+            <span ng-show="newCountryForm.nameCountry.$error.minlength" class="text-warning">Name must be at least three letters.</span>
+        </div>
+        <div class="form-group"></div>
+        <input type="submit" value="Add" class="btn btn-danger" ng-disabled="newCountryForm.$invalid" />
+    </form>
+</div>

@@ -1,0 +1,48 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Devoteam - @ViewBag.Title</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/leaflet/dist/leaflet.css" />
+
+
+</head>
+<body>
+    <nav class="nav navbar">
+        <ul class="nav navbar-nav navbar-left navbar-inverse headerandfooter">
+            <li><img id="navbarLogo" src="~/img/hallmark.png" alt="logo" class="navbar-brand" /></li>
+            <li><a asp-controller="App" asp-action="Index"><i class="fa fa-home">Home</i></a></li>
+            <li><a asp-controller="App" asp-action="About"><i class="fa fa-info-circle">About</i></a></li>
+            <li><a asp-controller="App" asp-action="Contact"><i class="fa fa-envelope">Contact</i></a></li>
+        </ul>
+    </nav>
+
+    <div>
+
+        <div class="wrapper">
+            <div id="main" class="container-fluid">
+                @RenderBody()
+            </div>
+            
+                <div id="footerOnly" class="footer" >
+                    <img src="~/img/logo.png" alt="logo" class="logo-footer" />
+                    <img src="~/img/ITCB_White_4lines.png" alt="4lines" class="logo-footer" />
+                </div>
+           
+        </div>
+    </div>
+
+    <script type="text/javascript" src="~/lib/Jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/lib/leaflet/dist/leaflet.js"></script>
+
+    @RenderSection("scripts", false)
+
+</body>
+</html>

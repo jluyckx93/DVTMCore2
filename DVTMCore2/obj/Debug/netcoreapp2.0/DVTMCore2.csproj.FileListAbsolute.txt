@@ -1,0 +1,11 @@
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\bin\Debug\netcoreapp2.0\DVTMCore2.deps.json
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\bin\Debug\netcoreapp2.0\DVTMCore2.runtimeconfig.json
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\bin\Debug\netcoreapp2.0\DVTMCore2.runtimeconfig.dev.json
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\bin\Debug\netcoreapp2.0\DVTMCore2.dll
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\bin\Debug\netcoreapp2.0\DVTMCore2.pdb
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\obj\Debug\netcoreapp2.0\DVTMCore2.csprojResolveAssemblyReference.cache
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\obj\Debug\netcoreapp2.0\DVTMCore2.csproj.CoreCompileInputs.cache
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\obj\Debug\netcoreapp2.0\DVTMCore2.AssemblyInfoInputs.cache
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\obj\Debug\netcoreapp2.0\DVTMCore2.AssemblyInfo.cs
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\obj\Debug\netcoreapp2.0\DVTMCore2.dll
+C:\Users\nvalsamis\Desktop\AspCore2.0\DVTMCore2\DVTMCore2\obj\Debug\netcoreapp2.0\DVTMCore2.pdb

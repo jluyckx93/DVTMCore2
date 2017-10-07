@@ -1,0 +1,43 @@
+﻿    <div>
+        <div class="col-md-3">
+            <div>
+                <a href="#/" class="btn btn-sm btn-danger"><i class="fa fa-arrow-left"></i> Back</a>
+                <h3 class="countryName">{{vm.countryName}}</h3>
+            </div>
+            <wait-cursor display-when="vm.isBusy"></wait-cursor>
+            <div class="alert alert-danger" ng-show="vm.errorMessage">{{vm.errorMessage}}</div>
+
+
+            <form novalidate name="newCityForm" ng-submit="vm.addCity()">
+                <div class="form-group">
+                    <h3>Add a city in the list</h3>
+                    <label>City name</label>
+                    <input class="form-control" id="nameCity" name="nameCity" ng-model="vm.newCity.nameCity" required/>
+                    <span class="text-danger" ng-show="newCityForm.nameCity.$error.required">Required</span>
+                </div>
+                <div>
+                    <input class="btn btn-danger" type="submit" value="Add" ng-disabled="newCityForm.$invalid"/>
+                </div>
+            </form>
+
+            <table class="table table-striped table-responsive">
+                <tr>
+                    <th>City name</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                </tr>
+                <tr ng-repeat="city in vm.cities">
+                    <td>{{city.nameCity}}</td>
+                    <td>{{city.latitude}}</td>
+                    <td>{{city.longitude}}</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="col-md-9">
+            <div class="container fill">
+                <div id="worldmap"></div>
+            </div>
+           </div>
+    </div>
